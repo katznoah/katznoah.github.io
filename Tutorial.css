@@ -1,0 +1,28 @@
+pre, code {
+    font-family: monospace, monospace;
+}
+pre {
+    overflow: auto;
+}
+pre > code {
+    display: block;
+    padding: 1rem;
+    word-wrap: normal;
+}
+button.code {
+    outline-style:solid;
+    outline:5px;
+    outline-color:green;
+    background-color: blue;
+    color: white;
+    padding:5px;
+    width:150px;
+    border-radius: 100px;
+}
+button.code:hover {
+    background-color:lightcoral;
+    color:black;
+}
+p {
+    font-style: italic;
+}
