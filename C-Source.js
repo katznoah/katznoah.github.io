@@ -1,3 +1,5 @@
+var clear = " ";
+
 var one = `#include &#60;stdio.h&#62;
 
 int main(void) {
@@ -367,6 +369,6 @@ Try messing around with the pointers here and see what you can do
 */`;
 
 function getFile(num) {
-    var strs = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, " "];
+    var strs = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, clear];
     document.getElementById("display").innerHTML = strs[num-1];
 }
