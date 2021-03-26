@@ -367,50 +367,6 @@ Try messing around with the pointers here and see what you can do
 */`;
 
 function getFile(num) {
-    switch(num) {
-        case 1:
-            document.getElementById("display").innerHTML = one;
-            break;
-        case 2:
-            document.getElementById("display").innerHTML = two;
-            break;
-        case 3:
-            document.getElementById("display").innerHTML = three;
-            break;
-        case 4:
-            document.getElementById("display").innerHTML = four;
-            break;
-        case 5:
-            document.getElementById("display").innerHTML = five;
-            break;
-        case 6:
-            document.getElementById("display").innerHTML = six;
-            break;
-        case 7:
-            document.getElementById("display").innerHTML = seven;
-            break;
-        case 8:
-            document.getElementById("display").innerHTML = eight;
-            break;
-        case 9:
-            document.getElementById("display").innerHTML = nine;
-            break;
-        case 10:
-            document.getElementById("display").innerHTML = ten;
-            break;
-        case 11:
-            document.getElementById("display").innerHTML = eleven;
-            break;
-        case 12:
-            document.getElementById("display").innerHTML = twelve;
-            break;
-        case 13:
-            document.getElementById("display").innerHTML = thirteen;
-            break;
-        case 14:
-            document.getElementById("display").innerHTML = fourteen;
-            break;
-        default:
-            document.getElementById("display").innerHTML = "";
-    }
+    var strs = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, ""];
+    document.getElementById("display").innerHTML = strs[num-1];
 }
