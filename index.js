@@ -9,7 +9,7 @@ function loopThrough(tag, strings, index1, index2, direction) {
         index1 = 0;
         direction = 0;
     }
-    else document.getElementById("head").innerHTML = `${string.substring(0,index1)}_`;
+    else document.getElementById(tag).innerHTML = `${string.substring(0,index1)}_`;
     if(direction == 0) setTimeout(function() {loopThrough(tag, strings, index1+1, index2, direction)}, 100);
     else setTimeout(function() {loopThrough(tag, strings, index1-1, index2, direction)}, 50);
 }
