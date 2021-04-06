@@ -8,6 +8,9 @@ img {
 }
 
 h1, h2, h3 {
+    max-width: 700px;
+    font-size: 250%;
+    margin-left: 10px;
     color: lightblue;
     font-family: Consolas;
 }
