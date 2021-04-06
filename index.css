@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3 {
+    color: lightblue;
+    font-family: Consolas;
+}
+
+.container {
+    width:auto;
+}
+
+.left-element {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.right-element {
+    display: inline-block;
+    position:fixed;
+    margin-left: auto;
+    top: 30px;
+    right: 50px;
+}
+
+p {
+    color: lightblue;
+}
