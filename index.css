@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+img {
+    height: 200%;
+    width: 200%;
+}
+
 h1, h2, h3 {
     color: lightblue;
     font-family: Consolas;
@@ -23,8 +28,8 @@ h1, h2, h3 {
     display: inline-block;
     position:fixed;
     margin-left: auto;
-    top: 30px;
-    right: 50px;
+    top: 75px;
+    right: 200px;
 }
 
 p {
