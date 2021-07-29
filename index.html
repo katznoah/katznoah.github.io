@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Is Cool</title>
     <link rel="stylesheet" href="index.css">
-    <title>Hello</title>
-</head>
-<body onload="func1();">
-    <div class="container">
-        <div class="right-element">
-            <a id="link" style="opacity:0; visibility: hidden;" href="https://github.com/katznoah" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/TuxFlat.svg/149px-TuxFlat.svg.png"></a>
-        </div>
-            <h1>Hi, My Name Is Noah</h1>
-            <h2 id="type"></h2>
-            <h3 id="one"></h3>
-            <h3 id="two"></h3>
-            <h3 id="three"></h3>
-    </div>
     <script src="index.js"></script>
+</head>
+<body>
+    <h1>BellaIsCool.com</h1>
+    <div>
+        <p class="question">Is Bella Cool And Pretty?</p>
+        <button type="button" class="no" onclick="func1('a',0)">No</button>
+        <button type="button" class="yes" onclick="func1('a',1)">Yes</button>
+    </div>
+    <p class="answer" id="a"></p>
 </body>
 </html>
