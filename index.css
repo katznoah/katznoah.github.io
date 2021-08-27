@@ -1,42 +1,40 @@
 body {
-    background-color: rgb(126, 196, 219);
-    font-family: arial;
-    text-align: center;
+    background-color: black;
 }
 
-h1 {
-    font-size: 350%;
-    color: rgb(255, 255, 128);
+img {
+    height: 200%;
+    width: 200%;
 }
 
-p.question {
+h1, h2, h3 {
+    max-width: 700px;
     font-size: 250%;
-    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    color: lightblue;
+    font-family: Consolas;
 }
 
-button {
-    font-size: 150%;
+.container {
+    width:auto;
+}
+
+.left-element {
+    display: inline-block;
+    width: 500px;
     position: absolute;
-    width: 20%;
-    height: 10%;
-    border-radius: 15px;
-    color: white;
+    top: 30px;
+    left: 50px;
 }
 
-button.yes {
-    left: 28%;
-    background-color: green;
+.right-element {
+    display: inline-block;
+    position:fixed;
+    margin-left: auto;
+    top: 75px;
+    right: 200px;
 }
 
-button.no {
-    right: 28%;
-    background-color: red;
-}
-
-p.answer {
-    position: absolute;
-    top: 60%;
-    left: 0;
-    right: 0;
-    font-size: 200%;
+p {
+    color: lightblue;
 }
